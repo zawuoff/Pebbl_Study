@@ -1,0 +1,25 @@
+PLACE YOUR VOSK MODEL HERE
+==========================
+
+Copy your extracted Vosk model folder directly into this directory.
+
+Expected structure:
+assets/
+├── vosk-model-small-en-us-0.15/    <-- Copy this entire folder here
+│   ├── am/
+│   ├── conf/
+│   ├── graph/
+│   ├── ivector/
+│   └── (other model files)
+└── PLACE_VOSK_MODEL_HERE.txt (this file - you can delete it after)
+
+STEPS:
+1. Locate your extracted "vosk-model-small-en-us-0.15" folder
+2. Copy the ENTIRE folder (not just its contents)
+3. Paste it directly in this "assets" directory
+4. The path should be: app/src/main/assets/vosk-model-small-en-us-0.15/
+
+After copying, rebuild your project and the model will be automatically
+extracted to the app's data directory on first launch.
+
+See VOSK_SETUP.md in project root for detailed instructions.
