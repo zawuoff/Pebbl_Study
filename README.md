@@ -1,4 +1,4 @@
-# Pebbl - AI-Powered Academic Voice Assistant
+# Pebbl - AI-Powered Writing and Learning Companion
 
 Pebbl is an Android application that helps students transform spoken ideas into structured academic drafts through AI-guided conversations.
 
